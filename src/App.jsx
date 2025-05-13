@@ -1,4 +1,3 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import ServicesCarousel from './components/ServicesCarousel';
@@ -7,7 +6,7 @@ import Testimonials from './components/Testimonials';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 
-function HomePage() {
+function App() {
   return (
     <>
       <Navbar />
@@ -17,16 +16,6 @@ function HomePage() {
       <ContactForm />
       <Footer />
     </>
-  );
-}
-
-function App() {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-      </Routes>
-    </Router>
   );
 }
 
