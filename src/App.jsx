@@ -7,9 +7,6 @@ import Testimonials from './components/Testimonials';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 
-import { useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
-
 function HomePage() {
   return (
     <>
